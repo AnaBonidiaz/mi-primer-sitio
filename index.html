@@ -2,15 +2,89 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=,initial-scale=1.0">
-    <title>Mi Tarjeta Personal</title>
-    <link rel="stylesheet"href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultoría Empresarial | Soluciones Estratégicas</title>
+    <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
-    <div class="card">
-        <h1>¡Hola soy Ana Maribel y estoy haciendo mi Web!</h1>
-        <p>Estoy aprendiendo a programar con HTML y CSS, y a respaldar mi código en la nube con Git y GitHub.</p>
-        <button onclick="alert('¡Gracias por visitar mi sitio web!')">Saludar</button>
-    </div>
+    <header class="hero">
+        <div class="container">
+            <nav class="navbar">
+                <a class="brand" href="#">Maya Consultores</a>
+                <div class="nav-links">
+                    <a href="#servicios">Servicios</a>
+                    <a href="#nosotros">Nosotros</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+            </nav>
+
+            <div class="hero-content">
+                <div>
+                    <p class="eyebrow">Consultoría empresarial</p>
+                    <h1>Impulsamos el crecimiento de tu empresa con estrategia, claridad y resultados.</h1>
+                    <p>Ayudamos a organizaciones a optimizar procesos, fortalecer equipos y tomar decisiones más inteligentes.</p>
+                    <a class="btn btn-primary" href="#contacto">Agendar una reunión</a>
+                </div>
+
+                <div class="hero-card">
+                    <h2>¿Qué podemos hacer por ti?</h2>
+                    <ul>
+                        <li>Diagnóstico de procesos</li>
+                        <li>Mejora de productividad</li>
+                        <li>Estrategias de crecimiento</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="servicios" class="section">
+            <div class="container">
+                <h2>Servicios clave</h2>
+                <div class="cards">
+                    <article class="card">
+                        <h3>Transformación organizacional</h3>
+                        <p>Diseñamos cambios estructurales para que tu empresa sea más ágil, eficiente y preparada para crecer.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Gestión del cambio</h3>
+                        <p>Acompañamos a equipos y líderes para implementar mejoras con menos resistencia y mejores resultados.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Planeación estratégica</h3>
+                        <p>Definimos prioridades claras, indicadores y acciones para avanzar con propósito y foco.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="nosotros" class="section section-alt">
+            <div class="container about">
+                <div>
+                    <p class="eyebrow">Nuestro enfoque</p>
+                    <h2>Una consultoría cercana, práctica y orientada a resultados.</h2>
+                    <p>Trabajamos de forma personalizada para entender tus desafíos reales y construir soluciones sostenibles a largo plazo.</p>
+                </div>
+                <div class="about-box">
+                    <p>Nos enfocamos en la mejora continua, la confianza del equipo y una ejecución clara desde el primer día.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section">
+            <div class="container contact">
+                <h2>Hablemos de tu próximo paso</h2>
+                <p>Tu empresa merece una estrategia sólida y un acompañamiento confiable.</p>
+                <a class="btn btn-secondary" href="mailto:contacto@mayaconsultores.com">contacto@mayaconsultores.com</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Maya Consultores. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
